@@ -31,7 +31,7 @@ function ToDo({ text, todo, todos, setTodos }) {
           className="btn btn-outline-success w-100 text-truncate"
           onClick={completeHandler}
         >
-          Complete
+          <i class="fas fa-check"></i>
         </button>
       </div>
       <div className="col-3">
@@ -39,7 +39,7 @@ function ToDo({ text, todo, todos, setTodos }) {
           className="btn btn-outline-danger w-100 text-truncate"
           onClick={deleteHandler}
         >
-          Remove
+          <i class="far fa-trash-alt"></i>
         </button>
       </div>
     </div>
