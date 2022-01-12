@@ -1,0 +1,31 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+button {
+
+  background-color: azure;
+}
+
+
+
+.completed {
+
+  text-decoration: line-through;
+}
+
+li {
+  list-style: none;
+
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
